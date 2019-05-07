@@ -1,0 +1,230 @@
+.body {
+  font-family: Roboto;
+}
+.progress-bar {
+    background-color:#9B51E0;
+    width: 100%;
+}
+.header, .content {
+  max-width: 1000px;
+}
+.logo {
+  width: 50px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 3px solid #FFC740;
+  box-sizing: border-box;
+}
+.super-logo {
+  position: relative;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  white-space: nowrap;
+  background: #FFFFFF;
+  width: 100%;
+}
+.btn-purple {
+  background: #9B51E0;
+  color: white;
+}
+.search {
+  position: relative;
+  max-width: 243px;
+  height: 100%;
+  margin-top: 10px;
+}
+.nav-item {
+  margin-left: 25px;
+}
+.nav-item:first-child{ 
+  margin-left: 0px;
+}
+.nav-item:last-child {
+  margin-left: 30px;
+}
+.nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #050505;
+}
+.nav-link:hover{
+  background: #FFC740;
+  color:white;
+  padding: 10px 40px;
+} 
+.banner {
+  position: relative;
+  height: 350px;
+}
+.banner::before { 
+  content: "";
+  position: absolute;
+  width: 100%; height: 100%;
+  background:  url('img/alps.jpg') no-repeat 50% 85%;
+  filter: brightness(55%);
+}
+.banner__title {
+  position : relative;
+  max-width : 500px;
+  font-style : normal;
+  font-weight : normal;
+  font-size : 64px;
+  line-height : 75px;
+  color : #FFC740;
+  filter : brightness(100%);
+  margin-left: 44px;
+  }
+.banner__text {
+  position : relative;
+  max-width : 450px;
+  font-style : normal;
+  font-weight : normal;
+  font-size : 14px;
+  line-height : 16px;
+  color : #FFFFFF;
+  margin-left : 44px;
+}
+.btn-read {
+  position: relative;
+  background: #6D3D99;
+  color: white;
+  margin-left: 44px;
+}
+.news {
+  width: 100%;
+  height: auto;
+}
+.news__block{
+  width: 48%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.purple_line, .yellow_line  {
+  background : #9B51E0;
+  width : 100%;
+  height : 16px;
+  margin-top : 20px;
+  text-align : left;
+  font-family : Roboto;
+  font-style : normal;
+  font-weight : bold;
+  font-size : 14px;
+  line-height : 16px;
+  color : #000000;
+  }
+.yellow_line {
+  background: #FFC740;
+}
+.line-text {
+  background : #FFFFFF;
+  margin-left : 16px;
+  padding-left: 4px;
+  padding-right: 6px;
+  width : 130px;
+  white-space : nowrap;
+  font-weight : bold;
+}
+.news__text {
+  font-family : Roboto;
+  font-style : normal;
+  font-weight : normal;
+  font-size : 12px;
+  line-height : 14px;
+  text-align : justify;
+  color : #000000;
+  margin-top: 16px;
+}
+.photo {
+  height : 141px;
+  width : 150px;
+  float : left;
+  border : #FFC740 solid 2px;
+  box-sizing : border-box;
+  margin-right : 10px;
+  padding : 2px;
+}
+.dog {
+  background : url('img/sobaka.jpg') no-repeat;
+  background-position : center left;
+  background-size : 112% 112%;
+}
+.underline {
+  text-decoration: underline;
+}
+.steve {
+  background : url('img/steve.jpg') no-repeat;
+  background-position : -40px;
+  background-size : 179% 100%;
+  }
+.mouse {
+  background : url('img/miw.jpg') no-repeat;
+  background-position : center center;
+  background-size : 130% 110%;
+  }
+.girl {
+  background : url('img/tyan.jpg') no-repeat;
+  background-size : 137% 146%;
+}
+.AvaPost1, .AvaPost2, .AvaPost3 {
+  width : 60px;
+  height : 47px;
+  float : left;
+  background : url('img/car.jpg') no-repeat;
+  background-size : 185% 113%;
+  background-position : -20px -3px;
+  margin-right : 10px;
+  }
+  .AvaPost2 {
+  background : url('img/phone.jpg') no-repeat;
+  background-size : 181% 110%;
+  background-position : center center;
+  }
+  .AvaPost3 {
+  background : url('img/news.png') no-repeat;
+  background-size : 206% 100%;
+  background-position : center center;
+  }
+  .AllPost {
+  display : block;
+  font-family : Roboto;
+  font-style : normal;
+  font-weight : normal;
+  font-size : 12px;
+  line-height : 14px;
+  text-align : justify;
+  color : #000000;
+  }
+  .mini-news__block {
+    margin-left: 20px;
+    width: 48%;
+  }
+  .mini-news__block:first-child{
+    margin-left: 10px;
+  }
+  .client-line {
+    margin-left: 10px;
+  }
+  .clients-block {
+    margin : 0 auto;
+    text-align : center;
+  }
+  .client {
+    margin-right : 50px;
+    margin-left : 30px;
+    width: 10%;
+  }
+  .footer {
+    margin-top: 22px;
+    height: 115px;
+    background: #6D3D99;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
